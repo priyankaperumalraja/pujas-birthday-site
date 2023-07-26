@@ -1,0 +1,21 @@
+body {
+    background-color: #EC3148;
+}
+body > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+}
